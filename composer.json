@@ -48,6 +48,7 @@
         "ext-exif": "*"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "phpunit/phpunit": "4.8.34",
         "cebe/indent": "~1.0.2",
         "friendsofphp/php-cs-fixer": "~2.2.3",
@@ -69,7 +70,9 @@
         }
     },
     "config": {
-        "platform": {"php": "5.4"}
+        "platform": {
+            "php": "5.4"
+        }
     },
     "bin": [
         "framework/yii"
